@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: font android;
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #18df6e;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #37C374, rgb(1, 85, 27));
+    box-shadow: 1px 2px 7px rgb(0, 0, 0, 0.7);
+    position: relative;
+    
+}
+
+header > h1 {
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+header > p {
+    text-align: center;
+    color: #fff;
+    font-size: 10px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+
+nav {
+    padding-bottom: 5px;
+}
+
+a {
+   text-decoration: none;
+   color: #fff;
+   padding-left: 10px;
+   font-size: 12px;
+}
+
+main {
+    background-color: #fff;
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 1px 1px 7px black;
+    border-radius: 0px 0px 5px 5px;
+}
+
+main > h1 {
+    font-size: 20px;
+    font-family: 'font android';
+    color: green;
+}
+
+main > h2 {
+    font-size: 18px;
+    font-family: 'font android';
+    color: green;
+    background-image: linear-gradient( to right, #8ce6b3, white);
+    padding-left: 5px;
+
+}
+
+main > p {
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+.foto2 {
+    padding-top: 5px;
+}
+
+.foto3 {
+    position: relative;
+    left: 80px;
+}
+
+.video {
+    background-color: green;
+    margin: -10px;
+    margin-top: 10px;
+}
+
+div > iframe {
+    margin: 25px;
+    width: 470px;
+}
+
+.lista {
+    background-color: #80dca8;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0, 0.7);
+    padding: 0px 5px 15px 5px;
+}
+
+h3 {
+    background-color: #22a95d;
+    color: #fff;
+    margin-left: -5px;
+    margin-right: -5px;
+    border-radius: 5px 5px 0px 0px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+div > p {
+    font-size: 12px;
+    text-indent: 15px;
+}
+
+span {
+    color: green;
+}
+
+footer {
+    background-color: green;
+    margin-top: 15px;
+}
+
+footer > p {
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
