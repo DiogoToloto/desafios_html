@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768) {
+  body {
+    height: 500px;
+  }
+}
