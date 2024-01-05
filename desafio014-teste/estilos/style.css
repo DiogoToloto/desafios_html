@@ -7,7 +7,6 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, rgb(123, 0, 255),  #6CD3CF);
     background-repeat: no-repeat;
 }
 
@@ -15,7 +14,6 @@ div#container {
     background-color: #fff;
     width: 400px;
     margin: auto;
-    margin-top: 70px;
     padding-bottom: 35px;
     border-radius: 15px;
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.678);
@@ -33,6 +31,7 @@ div#cadastro {
 
 div#cadastro h1 {
     text-align: center;
+    text-transform: uppercase;
     font-size: 2em;
     margin-bottom: 10px;
 }
@@ -89,22 +88,18 @@ input::placeholder {
 }
 
 #login {
-    background-color: #6CD3CF;
-    color: #fff;
+    text-transform: uppercase;
     margin-top: 10px;
 }
 
 #login:hover {
-    background-color: #4d9895;
+    background-color: #6CD3CF;
+    color: #fff;
     cursor: pointer;
 }
 
-#redefinir {
-    color: gray;
-}
-
 #redefinir:hover {
-    background-color: #4d9895;
+    background-color: #6CD3CF;
     color: #fff;
     cursor: pointer;
 }
